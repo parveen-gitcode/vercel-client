@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 
 // --- Configuration ---
 // Use deployed backend URL (VITE_SERVER_URL) with fallback
-axios.defaults.baseURL = import.meta.env.VITE_SERVER_URL || 'https://vercel-server-1.onrender.com';
+axios.defaults.baseURL = import.meta.env.VITE_SERVER_URL || 'https://vercel-server-eight-beta.vercel.app';
 
 // --- Context Creation ---
 const AppContext = createContext();
