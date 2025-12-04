@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      '/api': 'https://vercel-server-wnkt.onrender.com'
+      '/api': 'https://vercel-server-lac.vercel.app'
     }
   },
 });
