@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      '/api': 'https://vercel-server-lac.vercel.app'
+      '/api': 'https://vercel-server-re11.vercel.app'
     }
   },
 });
